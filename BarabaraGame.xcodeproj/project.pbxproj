@@ -14,6 +14,10 @@
 		04AB1F731C717A5300502BAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04AB1F711C717A5300502BAC /* LaunchScreen.storyboard */; };
 		04AB1F7E1C717A5400502BAC /* BarabaraGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AB1F7D1C717A5400502BAC /* BarabaraGameTests.swift */; };
 		04AB1F891C717A5400502BAC /* BarabaraGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AB1F881C717A5400502BAC /* BarabaraGameUITests.swift */; };
+		04AB1F981C717BD100502BAC /* bar.png in Resources */ = {isa = PBXBuildFile; fileRef = 04AB1F961C717BD100502BAC /* bar.png */; };
+		04AB1F991C717BD100502BAC /* tail.png in Resources */ = {isa = PBXBuildFile; fileRef = 04AB1F971C717BD100502BAC /* tail.png */; };
+		04AB1F9B1C717E2800502BAC /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AB1F9A1C717E2800502BAC /* GameViewController.swift */; };
+		04AB1F9D1C717E3D00502BAC /* RankingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AB1F9C1C717E3D00502BAC /* RankingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		04AB1F841C717A5400502BAC /* BarabaraGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarabaraGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04AB1F881C717A5400502BAC /* BarabaraGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarabaraGameUITests.swift; sourceTree = "<group>"; };
 		04AB1F8A1C717A5400502BAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04AB1F961C717BD100502BAC /* bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bar.png; sourceTree = "<group>"; };
+		04AB1F971C717BD100502BAC /* tail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tail.png; sourceTree = "<group>"; };
+		04AB1F9A1C717E2800502BAC /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GameViewController.swift; path = ../GameViewController.swift; sourceTree = "<group>"; };
+		04AB1F9C1C717E3D00502BAC /* RankingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RankingViewController.swift; path = ../RankingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +85,8 @@
 		04AB1F5C1C717A5300502BAC = {
 			isa = PBXGroup;
 			children = (
+				04AB1F961C717BD100502BAC /* bar.png */,
+				04AB1F971C717BD100502BAC /* tail.png */,
 				04AB1F671C717A5300502BAC /* BarabaraGame */,
 				04AB1F7C1C717A5400502BAC /* BarabaraGameTests */,
 				04AB1F871C717A5400502BAC /* BarabaraGameUITests */,
@@ -97,6 +107,8 @@
 		04AB1F671C717A5300502BAC /* BarabaraGame */ = {
 			isa = PBXGroup;
 			children = (
+				04AB1F9C1C717E3D00502BAC /* RankingViewController.swift */,
+				04AB1F9A1C717E2800502BAC /* GameViewController.swift */,
 				04AB1F681C717A5300502BAC /* AppDelegate.swift */,
 				04AB1F6A1C717A5300502BAC /* ViewController.swift */,
 				04AB1F6C1C717A5300502BAC /* Main.storyboard */,
@@ -230,8 +242,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				04AB1F731C717A5300502BAC /* LaunchScreen.storyboard in Resources */,
+				04AB1F991C717BD100502BAC /* tail.png in Resources */,
 				04AB1F701C717A5300502BAC /* Assets.xcassets in Resources */,
 				04AB1F6E1C717A5300502BAC /* Main.storyboard in Resources */,
+				04AB1F981C717BD100502BAC /* bar.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,7 +271,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				04AB1F6B1C717A5300502BAC /* ViewController.swift in Sources */,
+				04AB1F9B1C717E2800502BAC /* GameViewController.swift in Sources */,
 				04AB1F691C717A5300502BAC /* AppDelegate.swift in Sources */,
+				04AB1F9D1C717E3D00502BAC /* RankingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
